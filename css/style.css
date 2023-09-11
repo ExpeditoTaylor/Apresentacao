@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(50deg, red, blue);
+    height: 100vh;}
+
+h1 {
+    font-size: 25px;
+    background: linear-gradient(50deg, rgb(214, 8, 42), rgb(19, 89, 170));
+    padding-left: 20px;
+    border-radius: 10px;
+    color: lightskyblue;
+}
+.coursers {
+    font-size: 35px;
+    color: lightskyblue;
+}
+
+.coursers h2 {
+    color: black;
+}
+p {
+    font-size: 25px;
+    color: lightskyblue;
+}
+
+img {
+    border-radius: 100px;
+    width: 190px;
+    height: 200px;
+}
+
+#media_sociais {
+   justify-content: space-around;
+   display: flex;
+}
+
+.media_sociais img {
+    width: 25px;
+    height: 25px;
+    border-radius: 35px;
+    padding: 2px;
+}
+
+.media_sociais img:hover {
+    transform: scale(1.4);
+    border-radius: 35px;
+}
